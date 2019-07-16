@@ -83,6 +83,7 @@
 
 
 
+<meta name="keywords" content="a615481916">
 <meta property="og:type" content="website">
 <meta property="og:title" content="deepdark">
 <meta property="og:url" content="https://hizuhi.github.io/deepdark/index.html">
@@ -202,11 +203,21 @@
       
         
         <li class="menu-item menu-item-deepdark">
-          <a href="/deepdark/categories/日记" rel="section">
+          <a href="/deepdark/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br>
             
             前往深邃黑暗空间
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-note">
+          <a href="/categories/日记" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br>
+            
+            这是什么没b数？
           </a>
         </li>
       
@@ -266,6 +277,13 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+      
+        <div id="gitment-container"></div>
+      
+    </div>
 
   
 
@@ -382,7 +400,6 @@
 
 
   <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
-
 
 
 
@@ -520,6 +537,43 @@
 
 
 
+
+
+<!-- LOCAL: You can save these files to your site and update links -->
+    
+        
+        <link rel="stylesheet" href="https://aimingoo.github.io/gitmint/style/default.css">
+        <script src="https://aimingoo.github.io/gitmint/dist/gitmint.browser.js"></script>
+    
+<!-- END LOCAL -->
+
+    
+
+    
+      <script type="text/javascript">
+      function renderGitment(){
+        var gitment = new Gitmint({
+            id: '1563099677000, 
+            owner: 'hizuhi',
+            repo: 'hizuhi.github.io',
+            
+            lang: "" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
+            
+            oauth: {
+            
+            
+                client_secret: 'a09893d370e866522a47906bf1f418e9aee0e27d',
+            
+                client_id: '1391b98d3b310dd52954'
+            }});
+        gitment.render('gitment-container');
+      }
+
+      
+      renderGitment();
+      
+      </script>
+    
 
 
 

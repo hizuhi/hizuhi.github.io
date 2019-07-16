@@ -82,6 +82,7 @@
 
 
 <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="keywords" content="a615481916">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hello World">
 <meta property="og:url" content="https://hizuhi.github.io/2019/07/14/hello-world/index.html">
@@ -203,11 +204,21 @@
       
         
         <li class="menu-item menu-item-deepdark">
-          <a href="/deepdark/categories/日记" rel="section">
+          <a href="/deepdark/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br>
             
             前往深邃黑暗空间
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-note">
+          <a href="/categories/日记" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br>
+            
+            这是什么没b数？
           </a>
         </li>
       
@@ -286,6 +297,16 @@
           
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2019/07/14/hello-world/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count gitment-comments-count" data-xid="/2019/07/14/hello-world/" itemprop="commentsCount"></span>
+                </a>
+              </span>
             
           
 
@@ -384,6 +405,13 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+      
+        <div id="gitment-container"></div>
+      
+    </div>
 
   
 
@@ -528,7 +556,6 @@
 
 
 
-
         
 
 
@@ -663,6 +690,43 @@
 
 
 
+
+
+<!-- LOCAL: You can save these files to your site and update links -->
+    
+        
+        <link rel="stylesheet" href="https://aimingoo.github.io/gitmint/style/default.css">
+        <script src="https://aimingoo.github.io/gitmint/dist/gitmint.browser.js"></script>
+    
+<!-- END LOCAL -->
+
+    
+
+    
+      <script type="text/javascript">
+      function renderGitment(){
+        var gitment = new Gitmint({
+            id: '1563064387281, 
+            owner: 'hizuhi',
+            repo: 'hizuhi.github.io',
+            
+            lang: "" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
+            
+            oauth: {
+            
+            
+                client_secret: 'a09893d370e866522a47906bf1f418e9aee0e27d',
+            
+                client_id: '1391b98d3b310dd52954'
+            }});
+        gitment.render('gitment-container');
+      }
+
+      
+      renderGitment();
+      
+      </script>
+    
 
 
 
